@@ -25,7 +25,7 @@ make sure to create a gcp auth file for the above environment variable.
 ## How to run:
 
 ```hcl
-#init module
+# init module
 $ terraform init
 
 # check for config errors
@@ -34,7 +34,7 @@ $ terraform validate
 # preview
 $ terraform plan 
 
-#If everything looks correct and you are ready to build the infrastructure, apply the template in Terraform:
+# if everything looks correct and you are ready to build the infrastructure, apply the template
 $ terraform apply 
 
 $ terraform output ip
