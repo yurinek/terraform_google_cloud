@@ -47,7 +47,7 @@ variable "compute_image" {
 variable "bucket_name" {
   description = "Deploy bucket with this name"
   type        = string
-  default     = "yurinek-bucket-users"  
+  default     = "your-bucket-name"  
 }
 
 variable "disk_ssd_name" {
